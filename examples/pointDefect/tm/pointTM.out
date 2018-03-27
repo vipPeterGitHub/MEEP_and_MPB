@@ -1,0 +1,470 @@
+init-params: initializing eigensolver data
+Computing 100 bands with 1.000000e-07 tolerance.
+Working in 2 dimensions.
+Grid size is 112 x 112 x 1.
+Solving for 10 bands at a time.
+Creating Maxwell data...
+Allocating fields...
+Mesh size is 3.
+Lattice vectors:
+     (7, 0, 0)
+     (0, 7, 0)
+     (0, 0, 1)
+Cell volume = 49
+Reciprocal lattice vectors (/ 2 pi):
+     (0.142857, -0, 0)
+     (-0, 0.142857, -0)
+     (0, -0, 1)
+Geometric objects:
+     block, center = (0,0,0)
+          size (1e+20,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon = 12
+     cylinder, center = (0,0,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (1,0,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (2,0,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-1,0,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-2,0,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (3,0,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-3,0,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (0,1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (1,1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (2,1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-1,1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-2,1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (3,1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-3,1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (0,2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (1,2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (2,2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-1,2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-2,2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (3,2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-3,2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (0,-1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (1,-1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (2,-1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-1,-1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-2,-1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (3,-1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-3,-1,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (0,-2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (1,-2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (2,-2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-1,-2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-2,-2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-3,-2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (3,-2,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (0,-3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (1,-3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (2,-3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-1,-3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-2,-3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (3,-3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-3,-3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (0,3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (1,3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (2,3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-1,3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-2,3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (-3,3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (3,3,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 1
+     cylinder, center = (0,0,0)
+          radius 0.36, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 12
+Geometric object tree has depth 7 and 329 object nodes (vs. 51 actual objects)
+Initializing dielectric function...
+1 k-points:
+     (0.5,0.5,0)
+Solving for band polarization: tm.
+Initializing fields to random numbers...
+elapsed time for initialization: 0 seconds.
+epsilon: 1-12, mean 7.61275, harm. mean 2.43536, 65.9439% > 1, 60.1159% "fill"
+Outputting point-epsilon...
+solve_kpoint (0.5,0.5,0):
+tmfreqs:, k index, k1, k2, k3, kmag/2pi, tm band 1, tm band 2, tm band 3, tm band 4, tm band 5, tm band 6, tm band 7, tm band 8, tm band 9, tm band 10, tm band 11, tm band 12, tm band 13, tm band 14, tm band 15, tm band 16, tm band 17, tm band 18, tm band 19, tm band 20, tm band 21, tm band 22, tm band 23, tm band 24, tm band 25, tm band 26, tm band 27, tm band 28, tm band 29, tm band 30, tm band 31, tm band 32, tm band 33, tm band 34, tm band 35, tm band 36, tm band 37, tm band 38, tm band 39, tm band 40, tm band 41, tm band 42, tm band 43, tm band 44, tm band 45, tm band 46, tm band 47, tm band 48, tm band 49, tm band 50, tm band 51, tm band 52, tm band 53, tm band 54, tm band 55, tm band 56, tm band 57, tm band 58, tm band 59, tm band 60, tm band 61, tm band 62, tm band 63, tm band 64, tm band 65, tm band 66, tm band 67, tm band 68, tm band 69, tm band 70, tm band 71, tm band 72, tm band 73, tm band 74, tm band 75, tm band 76, tm band 77, tm band 78, tm band 79, tm band 80, tm band 81, tm band 82, tm band 83, tm band 84, tm band 85, tm band 86, tm band 87, tm band 88, tm band 89, tm band 90, tm band 91, tm band 92, tm band 93, tm band 94, tm band 95, tm band 96, tm band 97, tm band 98, tm band 99, tm band 100
+Solving for bands 1 to 10...
+    iteration    9: trace = 0.04464808283550933 (0.00118688% change)
+    iteration   18: trace = 0.04463331551592957 (9.03168e-05% change)
+    iteration   27: trace = 0.04463142850188336 (2.54283e-05% change)
+Finished solving for bands 1 to 10 after 33 iterations.
+Solving for bands 11 to 20...
+    iteration    8: trace = 0.1251846385015453 (0.0382001% change)
+    iteration   16: trace = 0.1249718605762578 (0.037028% change)
+    iteration   24: trace = 0.1249288237772455 (0.00177186% change)
+    iteration   32: trace = 0.1249225072473232 (0.000181879% change)
+Finished solving for bands 11 to 20 after 38 iterations.
+Solving for bands 21 to 30...
+    iteration    6: trace = 0.193453601868024 (0.673863% change)
+    iteration   13: trace = 0.1926488583089291 (0.00676179% change)
+    iteration   20: trace = 0.1926144535689237 (0.00035818% change)
+    iteration   27: trace = 0.1926140662050484 (1.67352e-05% change)
+    iteration   34: trace = 0.1926132771388887 (2.61119e-05% change)
+Finished solving for bands 21 to 30 after 40 iterations.
+Solving for bands 31 to 40...
+    iteration    7: trace = 0.2639528074371647 (0.206588% change)
+    iteration   14: trace = 0.2633330445835302 (0.0371066% change)
+    iteration   21: trace = 0.2631822247982131 (0.00375552% change)
+    iteration   28: trace = 0.263153084439138 (0.000658492% change)
+    iteration   34: trace = 0.2631394949457592 (0.000420131% change)
+    iteration   41: trace = 0.2631353049441338 (4.9849e-05% change)
+    iteration   47: trace = 0.2631340550126034 (4.88842e-05% change)
+    iteration   53: trace = 0.2631323933281811 (4.81568e-05% change)
+    iteration   59: trace = 0.2631318133860783 (1.37878e-05% change)
+Finished solving for bands 31 to 40 after 60 iterations.
+Solving for bands 41 to 50...
+    iteration    6: trace = 0.3494281032794005 (1.1896% change)
+    iteration   12: trace = 0.3461972049281188 (0.00403694% change)
+    iteration   18: trace = 0.346186475470349 (0.000417476% change)
+    iteration   24: trace = 0.346138810313119 (0.000877879% change)
+Finished solving for bands 41 to 50 after 29 iterations.
+Solving for bands 51 to 60...
+    iteration    6: trace = 0.4710652337335217 (1.50491% change)
+    iteration   12: trace = 0.4635213770489863 (0.0804571% change)
+    iteration   18: trace = 0.4626392418341872 (0.00692425% change)
+    iteration   24: trace = 0.4625873078027916 (0.000421005% change)
+    iteration   30: trace = 0.4625855356857601 (8.85591e-06% change)
+Finished solving for bands 51 to 60 after 30 iterations.
+Solving for bands 61 to 70...
+    iteration    5: trace = 0.5611973445878635 (2.5792% change)
+    iteration   11: trace = 0.5428824602347391 (0.147088% change)
+    iteration   16: trace = 0.5417220430136818 (0.0118638% change)
+    iteration   21: trace = 0.5416223223394849 (0.00149325% change)
+    iteration   26: trace = 0.5416009275803619 (0.000542393% change)
+    iteration   31: trace = 0.5415954155633711 (8.52383e-05% change)
+Finished solving for bands 61 to 70 after 36 iterations.
+Solving for bands 71 to 80...
+    iteration    5: trace = 0.5995016441800493 (3.25858% change)
+    iteration   10: trace = 0.5802812928238796 (0.136967% change)
+    iteration   15: trace = 0.5792658647204862 (0.00701107% change)
+    iteration   21: trace = 0.5790301860545295 (0.00614075% change)
+    iteration   26: trace = 0.5789753885267938 (0.000324993% change)
+    iteration   31: trace = 0.5789735789961641 (2.38754e-05% change)
+    iteration   36: trace = 0.5789730311828093 (1.13822e-05% change)
+Finished solving for bands 71 to 80 after 37 iterations.
+Solving for bands 81 to 90...
+    iteration    5: trace = 0.6815441579093702 (3.30814% change)
+    iteration   10: trace = 0.6580868826639539 (0.171222% change)
+    iteration   15: trace = 0.6571842351535934 (0.00463276% change)
+    iteration   20: trace = 0.6570965480665391 (0.00213839% change)
+    iteration   25: trace = 0.6570739274626323 (0.000341981% change)
+    iteration   30: trace = 0.6570649996911482 (0.000153232% change)
+    iteration   35: trace = 0.6570582587050749 (0.00033974% change)
+    iteration   40: trace = 0.6570510263115296 (5.15668e-05% change)
+    iteration   45: trace = 0.6570500650451165 (3.39275e-05% change)
+Finished solving for bands 81 to 90 after 48 iterations.
+Solving for bands 91 to 100...
+    iteration    5: trace = 0.7623820446564084 (2.78974% change)
+    iteration   10: trace = 0.7353304083548635 (0.0935377% change)
+    iteration   15: trace = 0.7343952150967041 (0.0173379% change)
+    iteration   20: trace = 0.7341706783043849 (0.00360742% change)
+    iteration   25: trace = 0.7339733392038406 (0.0041242% change)
+    iteration   30: trace = 0.7338914748207099 (0.00224957% change)
+    iteration   35: trace = 0.7338593128991836 (0.000446579% change)
+    iteration   40: trace = 0.7338482934222239 (8.18113e-05% change)
+    iteration   45: trace = 0.7338464890821439 (6.52449e-05% change)
+    iteration   50: trace = 0.7338452228211071 (1.55039e-05% change)
+Finished solving for bands 91 to 100 after 53 iterations.
+Finished k-point with 40.4 mean iterations/band.
+tmfreqs:, 1, 0.5, 0.5, 0, 0.101015, 0.0358835, 0.0367586, 0.0367586, 0.0367645, 0.0779611, 0.0814206, 0.0814206, 0.0815532, 0.0815541, 0.0815544, 0.0815531, 0.0815542, 0.106374, 0.108316, 0.108316, 0.10847, 0.125059, 0.128167, 0.128167, 0.128767, 0.128755, 0.128768, 0.12877, 0.128771, 0.142978, 0.145029, 0.145029, 0.145768, 0.145828, 0.14583, 0.145826, 0.14583, 0.159845, 0.159845, 0.160606, 0.160615, 0.171414, 0.171458, 0.171458, 0.172422, 0.172534, 0.172745, 0.172745, 0.172779, 0.191794, 0.192734, 0.192734, 0.193063, 0.193335, 0.202742, 0.202979, 0.202979, 0.21021, 0.211153, 0.213912, 0.213912, 0.214362, 0.22412, 0.22772, 0.22772, 0.230682, 0.231323, 0.232053, 0.232098, 0.232098, 0.232851, 0.232861, 0.232861, 0.232866, 0.237462, 0.237461, 0.238614, 0.239949, 0.23995, 0.240242, 0.240727, 0.240827, 0.240827, 0.240844, 0.246636, 0.246636, 0.247837, 0.248023, 0.25815, 0.259508, 0.259508, 0.259866, 0.260979, 0.26098, 0.261152, 0.261295, 0.269915, 0.270196, 0.270196, 0.270766, 0.27241, 0.273223, 0.273342, 0.273343, 0.274043
+elapsed time for k point: 37 seconds.
+Fixing h-field (band 1) phase by 0.966229 + -0.257686i; max ampl. = 0.194905
+Outputting fields to point-e.k01.b01.z.tm...
+Fixing h-field (band 2) phase by -0.474037 + 0.880505i; max ampl. = 0.197184
+Outputting fields to point-e.k01.b02.z.tm...
+Fixing h-field (band 3) phase by -0.996223 + 0.0868327i; max ampl. = 0.196446
+Outputting fields to point-e.k01.b03.z.tm...
+Fixing h-field (band 4) phase by 0.144141 + -0.989557i; max ampl. = 0.204171
+Outputting fields to point-e.k01.b04.z.tm...
+Fixing h-field (band 5) phase by 0.780547 + -0.625097i; max ampl. = 0.269929
+Outputting fields to point-e.k01.b05.z.tm...
+Fixing h-field (band 6) phase by 0.638911 + 0.769281i; max ampl. = 0.278786
+Outputting fields to point-e.k01.b06.z.tm...
+Fixing h-field (band 7) phase by 0.997314 + -0.0732444i; max ampl. = 0.230298
+Outputting fields to point-e.k01.b07.z.tm...
+Fixing h-field (band 8) phase by -0.028587 + -0.999591i; max ampl. = 0.206318
+Outputting fields to point-e.k01.b08.z.tm...
+Fixing h-field (band 9) phase by 0.875419 + 0.483364i; max ampl. = 0.195905
+Outputting fields to point-e.k01.b09.z.tm...
+Fixing h-field (band 10) phase by -0.864523 + 0.502594i; max ampl. = 0.224897
+Outputting fields to point-e.k01.b10.z.tm...
+Fixing h-field (band 11) phase by -0.826187 + 0.563397i; max ampl. = 0.203722
+Outputting fields to point-e.k01.b11.z.tm...
+Fixing h-field (band 12) phase by -0.974809 + 0.223043i; max ampl. = 0.19002
+Outputting fields to point-e.k01.b12.z.tm...
+Fixing h-field (band 13) phase by -0.887541 + -0.460729i; max ampl. = 0.218119
+Outputting fields to point-e.k01.b13.z.tm...
+Fixing h-field (band 14) phase by 0.383053 + -0.923726i; max ampl. = 0.237267
+Outputting fields to point-e.k01.b14.z.tm...
+Fixing h-field (band 15) phase by -0.0779959 + -0.996954i; max ampl. = 0.237262
+Outputting fields to point-e.k01.b15.z.tm...
+Fixing h-field (band 16) phase by -0.999131 + 0.0416872i; max ampl. = 0.187767
+Outputting fields to point-e.k01.b16.z.tm...
+Fixing h-field (band 17) phase by -0.967465 + 0.253005i; max ampl. = 0.221955
+Outputting fields to point-e.k01.b17.z.tm...
+Fixing h-field (band 18) phase by -0.680738 + 0.732527i; max ampl. = 0.349748
+Outputting fields to point-e.k01.b18.z.tm...
+Fixing h-field (band 19) phase by -0.380171 + 0.924916i; max ampl. = 0.349115
+Outputting fields to point-e.k01.b19.z.tm...
+Fixing h-field (band 20) phase by 0.873712 + 0.486443i; max ampl. = 0.244569
+Outputting fields to point-e.k01.b20.z.tm...
+Fixing h-field (band 21) phase by 0.982796 + 0.184692i; max ampl. = 0.218845
+Outputting fields to point-e.k01.b21.z.tm...
+Fixing h-field (band 22) phase by 0.849181 + 0.528102i; max ampl. = 0.270406
+Outputting fields to point-e.k01.b22.z.tm...
+Fixing h-field (band 23) phase by -0.0533612 + 0.998575i; max ampl. = 0.304375
+Outputting fields to point-e.k01.b23.z.tm...
+Fixing h-field (band 24) phase by -0.12557 + -0.992085i; max ampl. = 0.23533
+Outputting fields to point-e.k01.b24.z.tm...
+Fixing h-field (band 25) phase by 0.514493 + -0.857495i; max ampl. = 0.244716
+Outputting fields to point-e.k01.b25.z.tm...
+Fixing h-field (band 26) phase by -0.860345 + -0.509713i; max ampl. = 0.361934
+Outputting fields to point-e.k01.b26.z.tm...
+Fixing h-field (band 27) phase by 0.253043 + -0.967455i; max ampl. = 0.361041
+Outputting fields to point-e.k01.b27.z.tm...
+Fixing h-field (band 28) phase by -0.628841 + -0.777534i; max ampl. = 0.266324
+Outputting fields to point-e.k01.b28.z.tm...
+Fixing h-field (band 29) phase by 0.141876 + -0.989884i; max ampl. = 0.201467
+Outputting fields to point-e.k01.b29.z.tm...
+Fixing h-field (band 30) phase by -0.980094 + -0.198536i; max ampl. = 0.267392
+Outputting fields to point-e.k01.b30.z.tm...
+Fixing h-field (band 31) phase by -0.158772 + -0.987315i; max ampl. = 0.213724
+Outputting fields to point-e.k01.b31.z.tm...
+Fixing h-field (band 32) phase by -0.220781 + 0.975323i; max ampl. = 0.240563
+Outputting fields to point-e.k01.b32.z.tm...
+Fixing h-field (band 33) phase by -0.617085 + -0.786896i; max ampl. = 0.302477
+Outputting fields to point-e.k01.b33.z.tm...
+Fixing h-field (band 34) phase by -0.0427029 + -0.999088i; max ampl. = 0.3022
+Outputting fields to point-e.k01.b34.z.tm...
+Fixing h-field (band 35) phase by 0.694377 + -0.719611i; max ampl. = 0.213861
+Outputting fields to point-e.k01.b35.z.tm...
+Fixing h-field (band 36) phase by 0.281634 + 0.959522i; max ampl. = 0.213386
+Outputting fields to point-e.k01.b36.z.tm...
+Fixing h-field (band 37) phase by -0.517166 + 0.855885i; max ampl. = 0.260899
+Outputting fields to point-e.k01.b37.z.tm...
+Fixing h-field (band 38) phase by 0.884033 + -0.467425i; max ampl. = 0.340494
+Outputting fields to point-e.k01.b38.z.tm...
+Fixing h-field (band 39) phase by 0.463429 + 0.886134i; max ampl. = 0.351488
+Outputting fields to point-e.k01.b39.z.tm...
+Fixing h-field (band 40) phase by -0.990708 + 0.136005i; max ampl. = 0.303695
+Outputting fields to point-e.k01.b40.z.tm...
+Fixing h-field (band 41) phase by 0.547705 + -0.836671i; max ampl. = 0.272382
+Outputting fields to point-e.k01.b41.z.tm...
+Fixing h-field (band 42) phase by -0.0351732 + 0.999381i; max ampl. = 0.242406
+Outputting fields to point-e.k01.b42.z.tm...
+Fixing h-field (band 43) phase by -0.472241 + -0.881469i; max ampl. = 0.242456
+Outputting fields to point-e.k01.b43.z.tm...
+Fixing h-field (band 44) phase by 0.964299 + -0.264818i; max ampl. = 0.346075
+Outputting fields to point-e.k01.b44.z.tm...
+Fixing h-field (band 45) phase by -0.0135419 + 0.999908i; max ampl. = 0.432504
+Outputting fields to point-e.k01.b45.z.tm...
+Fixing h-field (band 46) phase by -0.904806 + 0.425824i; max ampl. = 0.25754
+Outputting fields to point-e.k01.b46.z.tm...
+Fixing h-field (band 47) phase by 0.811266 + -0.584677i; max ampl. = 0.25516
+Outputting fields to point-e.k01.b47.z.tm...
+Fixing h-field (band 48) phase by -0.906637 + -0.421912i; max ampl. = 0.309268
+Outputting fields to point-e.k01.b48.z.tm...
+Fixing h-field (band 49) phase by -0.761542 + -0.648115i; max ampl. = 0.326112
+Outputting fields to point-e.k01.b49.z.tm...
+Fixing h-field (band 50) phase by -0.832113 + 0.554605i; max ampl. = 0.252575
+Outputting fields to point-e.k01.b50.z.tm...
+Fixing h-field (band 51) phase by 0.998843 + -0.0480888i; max ampl. = 0.343913
+Outputting fields to point-e.k01.b51.z.tm...
+Fixing h-field (band 52) phase by -0.13837 + 0.990381i; max ampl. = 0.343953
+Outputting fields to point-e.k01.b52.z.tm...
+Fixing h-field (band 53) phase by 0.478005 + -0.878357i; max ampl. = 0.234708
+Outputting fields to point-e.k01.b53.z.tm...
+Fixing h-field (band 54) phase by 0.825105 + 0.564979i; max ampl. = 0.20048
+Outputting fields to point-e.k01.b54.z.tm...
+Fixing h-field (band 55) phase by 0.373339 + 0.927695i; max ampl. = 0.332223
+Outputting fields to point-e.k01.b55.z.tm...
+Fixing h-field (band 56) phase by -0.965467 + -0.260527i; max ampl. = 0.332317
+Outputting fields to point-e.k01.b56.z.tm...
+Fixing h-field (band 57) phase by 0.463003 + -0.886357i; max ampl. = 0.234303
+Outputting fields to point-e.k01.b57.z.tm...
+Fixing h-field (band 58) phase by 0.689601 + 0.72419i; max ampl. = 0.322371
+Outputting fields to point-e.k01.b58.z.tm...
+Fixing h-field (band 59) phase by 0.614757 + -0.788716i; max ampl. = 0.551209
+Outputting fields to point-e.k01.b59.z.tm...
+Fixing h-field (band 60) phase by -0.136001 + 0.990709i; max ampl. = 0.551197
+Outputting fields to point-e.k01.b60.z.tm...
+Fixing h-field (band 61) phase by -0.508314 + -0.861172i; max ampl. = 0.231128
+Outputting fields to point-e.k01.b61.z.tm...
+Fixing h-field (band 62) phase by -0.66881 + 0.743434i; max ampl. = 0.252831
+Outputting fields to point-e.k01.b62.z.tm...
+Fixing h-field (band 63) phase by 0.571917 + -0.820312i; max ampl. = 0.325435
+Outputting fields to point-e.k01.b63.z.tm...
+Fixing h-field (band 64) phase by 0.73405 + 0.679096i; max ampl. = 0.344115
+Outputting fields to point-e.k01.b64.z.tm...
+Fixing h-field (band 65) phase by 0.168326 + -0.985731i; max ampl. = 0.326029
+Outputting fields to point-e.k01.b65.z.tm...
+Fixing h-field (band 66) phase by 0.579598 + 0.814903i; max ampl. = 0.259931
+Outputting fields to point-e.k01.b66.z.tm...
+Fixing h-field (band 67) phase by -0.360285 + 0.932842i; max ampl. = 0.35013
+Outputting fields to point-e.k01.b67.z.tm...
+Fixing h-field (band 68) phase by -0.404755 + -0.914425i; max ampl. = 0.375254
+Outputting fields to point-e.k01.b68.z.tm...
+Fixing h-field (band 69) phase by -0.59609 + 0.802918i; max ampl. = 0.274823
+Outputting fields to point-e.k01.b69.z.tm...
+Fixing h-field (band 70) phase by 0.876204 + -0.481941i; max ampl. = 0.236279
+Outputting fields to point-e.k01.b70.z.tm...
+Fixing h-field (band 71) phase by -0.525656 + 0.850697i; max ampl. = 0.24892
+Outputting fields to point-e.k01.b71.z.tm...
+Fixing h-field (band 72) phase by -0.557283 + 0.830323i; max ampl. = 0.307294
+Outputting fields to point-e.k01.b72.z.tm...
+Fixing h-field (band 73) phase by 0.852486 + 0.522749i; max ampl. = 0.336073
+Outputting fields to point-e.k01.b73.z.tm...
+Fixing h-field (band 74) phase by 0.996574 + -0.0827018i; max ampl. = 0.302705
+Outputting fields to point-e.k01.b74.z.tm...
+Fixing h-field (band 75) phase by 0.152706 + -0.988272i; max ampl. = 0.298632
+Outputting fields to point-e.k01.b75.z.tm...
+Fixing h-field (band 76) phase by 0.958188 + 0.286139i; max ampl. = 0.270494
+Outputting fields to point-e.k01.b76.z.tm...
+Fixing h-field (band 77) phase by -0.469454 + 0.882957i; max ampl. = 0.295979
+Outputting fields to point-e.k01.b77.z.tm...
+Fixing h-field (band 78) phase by -0.085786 + -0.996314i; max ampl. = 0.297505
+Outputting fields to point-e.k01.b78.z.tm...
+Fixing h-field (band 79) phase by -0.974918 + -0.222564i; max ampl. = 0.275942
+Outputting fields to point-e.k01.b79.z.tm...
+Fixing h-field (band 80) phase by 0.253991 + -0.967207i; max ampl. = 0.274969
+Outputting fields to point-e.k01.b80.z.tm...
+Fixing h-field (band 81) phase by -0.731449 + 0.681896i; max ampl. = 0.279731
+Outputting fields to point-e.k01.b81.z.tm...
+Fixing h-field (band 82) phase by 0.596357 + -0.802719i; max ampl. = 0.250102
+Outputting fields to point-e.k01.b82.z.tm...
+Fixing h-field (band 83) phase by 0.874081 + -0.48578i; max ampl. = 0.267
+Outputting fields to point-e.k01.b83.z.tm...
+Fixing h-field (band 84) phase by -0.327538 + 0.944838i; max ampl. = 0.257347
+Outputting fields to point-e.k01.b84.z.tm...
+Fixing h-field (band 85) phase by 0.189683 + -0.981845i; max ampl. = 0.312236
+Outputting fields to point-e.k01.b85.z.tm...
+Fixing h-field (band 86) phase by 0.44302 + 0.896512i; max ampl. = 0.302208
+Outputting fields to point-e.k01.b86.z.tm...
+Fixing h-field (band 87) phase by 0.312458 + 0.949932i; max ampl. = 0.381612
+Outputting fields to point-e.k01.b87.z.tm...
+Fixing h-field (band 88) phase by 0.814744 + 0.57982i; max ampl. = 0.284838
+Outputting fields to point-e.k01.b88.z.tm...
+Fixing h-field (band 89) phase by -0.246578 + 0.969123i; max ampl. = 0.286098
+Outputting fields to point-e.k01.b89.z.tm...
+Fixing h-field (band 90) phase by -0.745033 + -0.667028i; max ampl. = 0.325539
+Outputting fields to point-e.k01.b90.z.tm...
+Fixing h-field (band 91) phase by 0.982935 + 0.183952i; max ampl. = 0.221206
+Outputting fields to point-e.k01.b91.z.tm...
+Fixing h-field (band 92) phase by 0.914132 + -0.405417i; max ampl. = 0.361123
+Outputting fields to point-e.k01.b92.z.tm...
+Fixing h-field (band 93) phase by -0.769957 + -0.638096i; max ampl. = 0.354997
+Outputting fields to point-e.k01.b93.z.tm...
+Fixing h-field (band 94) phase by 0.697877 + 0.716217i; max ampl. = 0.348551
+Outputting fields to point-e.k01.b94.z.tm...
+Fixing h-field (band 95) phase by 0.864197 + 0.503154i; max ampl. = 0.346163
+Outputting fields to point-e.k01.b95.z.tm...
+Fixing h-field (band 96) phase by 0.0924369 + -0.995719i; max ampl. = 0.269218
+Outputting fields to point-e.k01.b96.z.tm...
+Fixing h-field (band 97) phase by -0.586976 + 0.809604i; max ampl. = 0.271065
+Outputting fields to point-e.k01.b97.z.tm...
+Fixing h-field (band 98) phase by 0.790084 + -0.612999i; max ampl. = 0.302079
+Outputting fields to point-e.k01.b98.z.tm...
+Fixing h-field (band 99) phase by 0.942954 + 0.332924i; max ampl. = 0.299832
+Outputting fields to point-e.k01.b99.z.tm...
+Fixing h-field (band 100) phase by 0.421823 + -0.906678i; max ampl. = 0.309514
+Outputting fields to point-e.k01.b100.z.tm...
+total elapsed time for run: 38 seconds.
+done.
