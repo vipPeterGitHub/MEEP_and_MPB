@@ -75,18 +75,18 @@ axis([0.225 0.245 0 0.4])
 %ylabel('Normalized Transmission')
 
 %%
-nchi001 = dlmread('flux_chi_amp2_Ey.dat',',',1,1);
-nchi01 = dlmread('flux_chi_fc026.dat',',',1,1);
-nsgl = dlmread('flux_chi_singleSrc.dat',',',1,1);
-pchi001 = nchi001(:,2);
-pchi01 = nchi01(:,2);
-psgl = nsgl(:,2);
-%pp = pchi - psgl;
-normchi001 = pchi001./p0;
-normchi01 = pchi01./p0;
+nchi = dlmread('flux_chi_amp10_num2000.dat',',',1,1);
+nchiRef = dlmread('flux_chi_amp10_num2000_nosrc.dat',',',1,1);
+pchi = nchi(:,2);
+pchiRef = nchiRef(:,2);
+ff = nchi(:,1);
+
 figure
-plot(f,normchi001,'b',f,normchi01+1,'g',f,norm1+2,'r')
-%axis([0.23 0.24 0 5])
+plot(ff,pchiRef,'r',ff,pchi-0.1,'b')
+axis([0.225 0.24 0 1])
 
-
+title('Transmission Spectrum(with nonlinear material)')
+xlabel('Frequency')
+ylabel('Transmission')
+legend('turn-off external field','turn-on external field');
 
