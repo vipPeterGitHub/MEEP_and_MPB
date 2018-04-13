@@ -3,12 +3,12 @@
 (define-param r 0.36)         ; radius of holes
 (define-param d 1.4)          ; defect spacing (ordinary spacing = 1)
 (define-param N 3)            ; number of holes on either side of defect
-(define-param k 1) 
+(define-param k 10) 
 
 (define-param sy 6)           ; size of cell in y direction (perpendicular to wvg.)
 (define-param pad 2)          ; padding between last hole and PML edge
 (define-param dpml 1)         ; PML thickness
-(define-param amp 10)
+(define-param amp 2)
 ;(define sx (+ (* 2 (+ pad dpml N)) d -1))    ; size of cell in x direction
 (define sx (+ (* 2 (+ pad dpml 3)) d -1))    ; size of cell in x direction
 
@@ -50,12 +50,12 @@
                  (component Ey)
                  (center (+ dpml (* -0.5 sx)) 0)
                  (size 0 w))
-               ;(make source
-               ;  (src (make continuous-src (frequency 0.26)))
-               ;  (component Ey)
-	;	 (amplitude amp)
-        ;         (center 0 0)
-        ;         (size 0 w))
+               (make source
+                 (src (make continuous-src (frequency 0.26)))
+                 (component Ey)
+		 (amplitude amp)
+                 (center 0 0)
+                 (size 0 w))
 ))
 
 ;(set! sources (list
