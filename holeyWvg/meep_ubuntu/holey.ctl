@@ -50,12 +50,12 @@
                  (component Ey)
                  (center (+ dpml (* -0.5 sx)) 0)
                  (size 0 w))
-               (make source
-                 (src (make continuous-src (frequency 0.26)))
-                 (component Ey)
-		 (amplitude amp)
-                 (center 0 0)
-                 (size 0 w))
+               ;(make source
+                ; (src (make continuous-src (frequency 0.26)))
+                 ;(component Ey)
+		 ;(amplitude amp)
+                 ;(center 0 0)
+                 ;(size 0 w))
 ))
 
 ;(set! sources (list
